@@ -1,0 +1,588 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    ::selection{
+        @apply bg-amber-600 text-slate-300
+    }
+
+    /* Header Section */
+    .header-section__navigation-block ul li {
+        @apply list-none py-2 px-1 xxl:py-0;
+    }
+
+    .header-section__navigation-block ul li:not(:last-child) {
+        @apply border-b border-[#ccc] xxl:border-none dark:border-slate-500;
+    }
+
+    .header-section__navigation-block ul li a {
+        @apply no-underline text-[#2c2c2c] font-poppins tracking-wide text-[0.9rem] capitalize xxl:text-white dark:text-[#ccc]
+    }
+
+    .header-section__navigation-block ul li a.active{
+        @apply !text-red-700 lg:!text-amber-500
+    }
+
+    .header-section__navigation-block.opened {
+        left: 0;
+    }
+
+    /* Home Hero Section */
+
+    .hero_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('./assets/hero/hero_bg.png');
+        background-repeat: repeat-x;
+        background-size: 2250px auto;
+        z-index: 1;
+        animation: transitionBg 40s linear infinite;
+    }
+
+    .banner-discount {
+        transform: rotate(-50deg);
+    }
+
+    .banner-image .pizza-img {
+        animation: spin 15s linear infinite;
+    }
+
+    /* Our Categories Section (HomePage) */
+
+    .section-heading {
+        clip-path: polygon(0 0, 100% 0, 93% 50%, 100% 100%, 0 100%, 7% 50%, 0 0);
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(to right, #f58e0b, #b45309, #b91c1c);
+        position: relative;
+        z-index: 8;
+    }
+
+    .see-more-button:hover .svg-wrapper {
+        animation: fly 0.6s ease-in-out infinite alternate;
+    }
+
+    .see-more-button,
+    .see-more-button svg,
+    .see-more-button span {
+        transition: all 0.5s ease-in-out;
+    }
+
+    .see-more-button:hover svg {
+        transform: translateX(2.2em) rotate(45deg) scale(1.1);
+    }
+
+    .see-more-button:hover span {
+        transform: translateX(6rem);
+    }
+
+    .see-more-button:active {
+        transform: scale(0.95);
+    }
+
+    /* Scrollbar section */
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #f9f9f9;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #f58e0b;
+        transition: all 0.3s ease-in-out;
+        border-radius: 1px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #d0691b;
+    }
+
+    .card-Btn {
+        border: 2px solid rgba(255, 255, 255, 0.349);
+        background-color: rgb(12, 12, 12);
+        border-radius: 40px;
+        width: auto;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .Icon-Container {
+        @apply bg-gradient-to-b from-[#f58e0b] to-[#d0691b] transition-all duration-300 dark:from-[#ff87ff] dark:to-[#ac46ff];
+    }
+
+    .card-Btn:hover .Icon-Container {
+        width: 5rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-Btn:hover .button-text {
+        opacity: 0;
+        font-size: 0;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-Btn:active {
+        transform: scale(0.95);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .category-card {
+        border: 1px solid #ccc;
+    }
+
+    /* Footer section */
+
+    .footer-section {
+        background-color: rgb(18, 22, 12);
+    }
+
+    /* Offers section */
+
+    .offers-section {
+        background: url('./assets/Home/offer/offer-bg.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .timer-card {
+        background-color: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(2px);
+        @apply flex-1 sm:flex-none lg:flex-none md:flex-none text-center py-[0.9rem] px-[0.3rem] lg:py-[1.1rem] lg:px-[1.3rem] rounded-[7px] border border-slate-600 sm:w-[5.3rem] lg:w-[5.2rem] md:w-[4.5rem] flex flex-col items-center justify-center;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+        aspect-ratio: 1 / 1;
+    }
+
+    /* Why choose section */
+
+    .why-choose-card {
+        @apply border bg-white border-[#ccc] shadow-sm shadow-[#ccc] py-5 px-3 flex flex-col items-center justify-center transition-all duration-300 lg:py-7 lg:px-5
+    }
+
+    .why-choose-section .why-choose-card:hover {
+        background-color: #b91c1c !important;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .why-choose-section .why-choose-card:hover .choose-icon {
+        color: #fff;
+    }
+
+    /* Food Menu section (HomePage) */
+
+    .food-card {
+        clip-path: polygon(0 0, 96% 0, 100% 35%, 100% 100%, 4% 100%, 0 75%);
+        border: 1px solid #ccc;
+    }
+
+    .food-card .food-details .food-desc {
+        color: #808080;
+    }
+
+    .food-card:hover .food-details .food-desc,
+    .food-card:hover .food-details h4,
+    .food-card:hover .price {
+        color: #fff;
+    }
+
+    .sidebar-overlay {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Footer section socials */
+
+    .social-box {
+        @apply border border-slate-500 w-[3rem] h-[3rem] flex items-center justify-center rounded-[50%] shadow-[2px_2px_4px_rgba(0_0_0_0.3)] bg-[rgba(255_255_255_0.1)] backdrop-blur-sm hover:cursor-pointer relative transition-all duration-500;
+    }
+
+    .social-box::before {
+        content: attr(data-social);
+        position: absolute;
+        transform: translateY(-45px);
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+        border: 1px solid #ccc;
+        padding: 0.2rem 0.5rem;
+        background-color: var(--accent-color);
+        color: #fff;
+        font-weight: 600;
+        text-transform: capitalize;
+        border-radius: 10px;
+        transform: translateY(5px) rotate(30deg);
+        opacity: 0;
+        transition: 300ms cubic-bezier(0.42, 0, 0.44, 1.68);
+    }
+
+    .social-box::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 10px solid var(--accent-color);
+        transform: translateY(0);
+        opacity: 0;
+        transition: 300ms cubic-bezier(0.42, 0, 0.44, 1.68);
+    }
+
+    .social-box:hover {
+        background-color: var(--accent-color);
+    }
+
+    .social-box:hover::before {
+        transform: translateY(-50px) rotate(0);
+        opacity: 1;
+    }
+
+    .social-box:hover::after {
+        transform: translateY(-32px);
+        opacity: 1;
+    }
+
+    /* Menu Page */
+    .page-banner {
+        background: url('./assets/common/page-bg.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .nav-tab {
+        @apply border border-[#ccc] py-2 px-4 sm:flex-1 capitalize tracking-wide shadow-[2px_2px_3px_rgba(0_0_0_0.1)] text-[1rem] rounded-md font-[400] bg-red-200 hover:bg-red-600 hover:text-white transition-all duration-300 active:bg-red-600;
+    }
+
+    .nav-tab.active {
+        @apply bg-red-700 text-white
+    }
+
+    .menu-card-block {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+    }
+
+    /* Our team Page */
+
+    .our-team__bottom-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+    }
+
+    .our-team-card-content::before,
+    .our-team-card-content::after {
+        content: "";
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .our-team-card-content::after {
+        box-shadow: 0.375rem 0.375rem #fffbeb;
+        border-bottom-right-radius: 0.5rem;
+    }
+
+    .dark .our-team-card-content::after {
+        box-shadow: 0.375rem 0.375rem #475569;
+    }
+
+    .curve-one,
+    .curve-two {
+        content: "";
+        position: absolute;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .curve-one {
+        border-bottom-right-radius: 0.5rem;
+        box-shadow: 0.375rem 0.375rem #fffbeb;
+    }
+
+    .dark .curve-one {
+        box-shadow: 0.375rem 0.375rem #475569;
+    }
+
+    .category-card {
+        animation: cardAnimate 1s linear both;
+        animation-timeline: view();
+        animation-range: entry 0% cover 50%;
+    }
+
+    /* .banner-info {
+        animation: fadeText linear;
+        animation-timeline: view();
+        animation-range: exit -200px;
+    } */
+
+    /* Page not found */
+
+    .page-not-found__title {
+        background: url('./assets/page-not-found/404-bg.avif') no-repeat top center;
+        background-clip: text;
+    }
+
+    .page-not-found-subtitle {
+        background: url('./assets/page-not-found/page-not-found-text-bg.avif') no-repeat center;
+        background-clip: text;
+    }
+
+    .earth-picture img {
+        animation: revolveEarth 20s linear infinite;
+    }
+
+    /* Blog page */
+
+    .blog-page__blog-card-block {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+    }
+
+    .blog-card:hover img {
+        transform: scale(1.05);
+    }
+
+    li.pagination-item {
+        @apply list-none flex items-center justify-center
+    }
+
+    li.pagination-item button {
+        @apply no-underline capitalize font-[400] tracking-wide text-[#222] border border-[#ccc] shadow-sm shadow-[#ccc] bg-[#fff] py-[0.35rem] px-[0.7rem] rounded-sm transition-all duration-300 hover:bg-red-700 hover:text-white dark:bg-slate-500 dark:text-white dark:shadow-slate-600 dark:border-slate-600
+    }
+
+    li.pagination-item.active button {
+        @apply bg-red-700 text-white
+    }
+
+    /* Menu Page */
+
+    .menu_food-card:hover .menu_food-card_cta-block {
+        @apply left-0 !visible !opacity-100
+    }
+
+    .wishlist-badge::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -0.6em;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-right: 10px solid #1e293b;
+    }
+
+    .cta-block:hover .wishlist-tooltip-block {
+        @apply !opacity-100 !visible
+    }
+
+    .menu_food-card {
+        @apply shadow-sm shadow-[#ccc] border rounded-[10px] cursor-pointer relative
+    }
+
+    /* Blog Page */
+
+    .blog-tags li {
+        @apply list-none capitalize text-[0.8rem] lg:text-[0.9rem] font-[600] tracking-wide dark:text-[#ccc]
+    }
+
+    /* Blog Details */
+
+    .blog-details__inner {
+        container-type: inline-size;
+        container-name: blog-layout;
+    }
+
+    .blog-details__content-block {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    @container blog-layout (min-width: 768px) {
+        .blog-details__content-block {
+            grid-template-columns: 2fr 1fr;
+            gap: 1.3rem;
+        }
+    }
+
+    .register_form-group {
+        @apply mb-4
+    }
+
+    .register_form-group label {
+        @apply capitalize tracking-wide font-[500] block mb-[0.3rem] dark:text-[#fff]
+    }
+
+    .register_form-group input {
+        @apply border-[1px] border-[#ccc] w-full py-[0.4rem] text-[#222] px-2 tracking-wide placeholder:capitalize placeholder:font-[500] text-[0.9rem] rounded-[5px] focus:outline-none
+    }
+
+    .thumb-img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .item-card td {
+        vertical-align: middle;
+    }
+
+    .cart-page table.table thead tr td {
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 0.9rem;
+    }
+
+    .cart-page table {
+        border-collapse: separate;
+        border-spacing: 0 15px;
+    }
+
+    .cart-page .cta-button {
+        border: 1px solid #ccc;
+        padding: 0.3rem 0.9rem;
+        border-radius: 5px;
+    }
+
+    .cartItem-table thead tr td{
+        background-color: #fff !important;
+    }
+
+    .table> :not(caption)>*>* {
+        background-color: #f7f1e1 !important;
+    }
+
+    .menu-detail-page .qty-btn{
+        @apply border border-[#ccc] shadow-sm shadow-[#ccc] py-1 px-4 rounded-[3px] bg-red-600 text-[#fff] text-[1.1rem]
+    }
+
+    .menu-detail-page .product-variations select option{
+        @apply bg-slate-100 text-[#222]
+    }
+
+    .login-page .login-form-group{
+        @apply mb-4
+    }
+
+    .login-page .login-form label{
+        @apply block capitalize font-[500] tracking-wide text-[0.9rem] lg:text-[1rem]
+    }
+
+    .login-page .login-form input{
+        @apply border border-[#ccc] w-full py-[0.4rem] px-2 mt-1 placeholder:font-[500] placeholder:capitalize tracking-wide focus:outline-none placeholder:text-[0.9rem] lg:placeholder:text-[1rem] text-[0.9rem] lg:text-[1rem]
+    }
+
+    .checkout-page .billing-field{
+        @apply mb-3
+    }
+
+    .checkout-page .billing-field label{
+        @apply capitalize block mb-[0.35rem] font-[500] tracking-wide
+    }
+
+    .checkout-page .billing-field input , 
+    .billing-field textarea{
+        @apply border border-[#ccc] w-full py-[0.4rem] px-3 placeholder:capitalize placeholder:font-[500] tracking-wide text-[0.9rem] focus:outline-none
+    }
+
+    .checkout-page .order-details__block{
+        background-color: #f7f1e1 !important;
+    }
+
+    .place-order__overlay{
+        @apply fixed inset-0 bg-[rgba(255,255,255,0.6)] z-50 flex justify-center items-center pointer-events-none cursor-not-allowed backdrop-blur-sm;
+    }
+
+    .scroller{
+        animation: scrollAnimate 2s linear infinite;
+    }
+}
+
+/* Key Frames */
+
+@keyframes revolveEarth {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes transitionBg {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-2250px, 0, 0);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0.07rem);
+    }
+
+    100% {
+        transform: translateY(-0.07rem);
+    }
+}
+
+@keyframes cardAnimate {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeText {
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes header-bg {
+    25% {
+        opacity: 0;
+    }
+
+    85%,
+    100% {
+        opacity: 0;
+        scale: 3
+    }
+}
+
+@keyframes scrollAnimate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,15 @@
+@media screen and (min-width:768px){
+    .section-padding{
+        padding: 1.7rem 2.5rem;
+    }
+
+    .content-padding{
+        padding: 4rem 0 0 0;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .section-padding {
+        padding: 2.5rem 4rem;
+    }
+}

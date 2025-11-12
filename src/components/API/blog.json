@@ -1,0 +1,444 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-1.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "elevate epicurean stack",
+      "blogDescription": "Indulge your taste buds in a culinary adventure with our Testy Food .",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "2",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-2.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "towering taste triumph",
+      "blogDescription": "Experience the artistry of our chefs as they elevate classic recipes.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "3",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-3.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "skyline epicurean delight",
+      "blogDescription": "Each carefully selected ingredient to contributes the harmonious food.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "4",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-4.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "gourmet griddl masterpiece",
+      "blogDescription": "As you move to the main ranging from rich and savory light and refreshing.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "5",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-5.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "deluxe flavor fusion stack",
+      "blogDescription": "Join us celebrating the joy of cuisine delicious where bite tells a story.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "6",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-6.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "regal royale delight",
+      "blogDescription": "Savor the exquisite blend of flavors in our Testy Best Food collection.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "7",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-6.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "elevate epicurean stack",
+      "blogDescription": "Indulge your taste buds in a culinary adventure with our Testy Food .",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "8",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-5.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "towering taste triumph",
+      "blogDescription": "Experience the artistry of our chefs as they elevate classic recipes.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "9",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-4.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "skyline epicurean delight",
+      "blogDescription": "Each carefully selected ingredient to contributes the harmonious food.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "10",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-3.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "gourmet griddl masterpiece",
+      "blogDescription": "As you move to the main ranging from rich and savory light and refreshing.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "11",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-2.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "deluxe flavor fusion stack",
+      "blogDescription": "Join us celebrating the joy of cuisine delicious where bite tells a story.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "12",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-1.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "regal royale delight",
+      "blogDescription": "Savor the exquisite blend of flavors in our Testy Best Food collection.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "13",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-3.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "deluxe flavor fusion stack",
+      "blogDescription": "Join us celebrating the joy of cuisine delicious where bite tells a story.",
+      "learnMore": "Learn More"
+    },
+    {
+      "id": "14",
+      "blogImage": "http://localhost:5173/src/assets/Blog/blog-image-6.jpg",
+      "blogTag": "creativity",
+      "blogDate": "May 25, 2004",
+      "blogTitle": "regal royale delight",
+      "blogDescription": "Savor the exquisite blend of flavors in our Testy Best Food collection.",
+      "learnMore": "Learn More"
+    }
+  ],
+  "BeefMenu": [
+    {
+      "id": "1",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/beef/product-1.jpg",
+      "FoodPrice": "18.00",
+      "Rating": "4.7",
+      "TotalConsumers": "375",
+      "ProductTitle": "beefy bourbon bliss",
+      "ProductMeta1": "4 piece chicken",
+      "ProductMeta2": "spicy sauce",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/beef/product-2.jpg",
+      "FoodPrice": "18.00",
+      "Rating": "4.7",
+      "TotalConsumers": "375",
+      "ProductTitle": "beefy bourbon bliss",
+      "ProductMeta1": "4 piece chicken",
+      "ProductMeta2": "spicy sauce",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/beef/product-3.jpg",
+      "FoodPrice": "18.00",
+      "Rating": "4.7",
+      "TotalConsumers": 375,
+      "ProductTitle": "thai basil beef stir-fry",
+      "ProductMeta1": "4 piece chicken",
+      "ProductMeta2": "spicy sauce",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/beef/product-4.jpg",
+      "FoodPrice": "18.00",
+      "Rating": "4.7",
+      "TotalConsumers": "375",
+      "ProductTitle": "beefy bourbon bliss",
+      "ProductMeta1": "4 piece chicken",
+      "ProductMeta2": "spicy sauce",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/beef/product-5.jpg",
+      "FoodPrice": "18.00",
+      "Rating": "4.7",
+      "TotalConsumers": "375",
+      "ProductTitle": "beefy bourbon bliss",
+      "ProductMeta1": "4 piece chicken",
+      "ProductMeta2": "spicy sauce",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/beef/product-6.jpg",
+      "FoodPrice": "18.00",
+      "Rating": "4.7",
+      "TotalConsumers": "375",
+      "ProductTitle": "beefy bourbon bliss",
+      "ProductMeta1": "4 piece chicken",
+      "ProductMeta2": "spicy sauce",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    }
+  ],
+  "GrilledMenu": [
+    {
+      "id": "1",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/grilled/product-1.jpg",
+      "FoodPrice": "22.00",
+      "Rating": "4.9",
+      "TotalConsumers": "420",
+      "ProductTitle": "grilled garlic butter steak",
+      "ProductMeta1": "8 oz steak",
+      "ProductMeta2": "garlic butter",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/grilled/product-2.jpg",
+      "FoodPrice": "22.00",
+      "Rating": "4.9",
+      "TotalConsumers": "420",
+      "ProductTitle": "grilled garlic butter steak",
+      "ProductMeta1": "8 oz steak",
+      "ProductMeta2": "garlic butter",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/grilled/product-3.jpg",
+      "FoodPrice": "22.00",
+      "Rating": "4.9",
+      "TotalConsumers": "420",
+      "ProductTitle": "grilled garlic butter steak",
+      "ProductMeta1": "8 oz steak",
+      "ProductMeta2": "garlic butter",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/grilled/product-4.jpg",
+      "FoodPrice": "22.00",
+      "Rating": "4.9",
+      "TotalConsumers": "420",
+      "ProductTitle": "grilled garlic butter steak",
+      "ProductMeta1": "8 oz steak",
+      "ProductMeta2": "garlic butter",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/grilled/product-5.jpg",
+      "FoodPrice": "22.00",
+      "Rating": "4.9",
+      "TotalConsumers": "420",
+      "ProductTitle": "grilled garlic butter steak",
+      "ProductMeta1": "8 oz steak",
+      "ProductMeta2": "garlic butter",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/grilled/product-6.jpg",
+      "FoodPrice": "22.00",
+      "Rating": "4.9",
+      "TotalConsumers": "420",
+      "ProductTitle": "grilled garlic butter steak",
+      "ProductMeta1": "8 oz steak",
+      "ProductMeta2": "garlic butter",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    }
+  ],
+  "SizzlingMenu": [
+    {
+      "id": "1",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/sizzling/product-1.jpg",
+      "FoodPrice": "25.00",
+      "Rating": "4.8",
+      "TotalConsumers": "390",
+      "ProductTitle": "sizzling fajita platter",
+      "ProductMeta1": "chicken or beef",
+      "ProductMeta2": "with veggies",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/sizzling/product-2.jpg",
+      "FoodPrice": "25.00",
+      "Rating": "4.8",
+      "TotalConsumers": "390",
+      "ProductTitle": "sizzling fajita platter",
+      "ProductMeta1": "chicken or beef",
+      "ProductMeta2": "with veggies",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/sizzling/product-3.jpg",
+      "FoodPrice": "25.00",
+      "Rating": "4.8",
+      "TotalConsumers": "390",
+      "ProductTitle": "sizzling fajita platter",
+      "ProductMeta1": "chicken or beef",
+      "ProductMeta2": "with veggies",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/sizzling/product-4.jpg",
+      "FoodPrice": "25.00",
+      "Rating": "4.8",
+      "TotalConsumers": "390",
+      "ProductTitle": "sizzling fajita platter",
+      "ProductMeta1": "chicken or beef",
+      "ProductMeta2": "with veggies",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/sizzling/product-5.jpg",
+      "FoodPrice": "25.00",
+      "Rating": "4.8",
+      "TotalConsumers": "390",
+      "ProductTitle": "sizzling fajita platter",
+      "ProductMeta1": "chicken or beef",
+      "ProductMeta2": "with veggies",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "MenuProductImg": "http://localhost:5173/src/assets/Menu-Page/food-products/sizzling/product-6.jpg",
+      "FoodPrice": "25.00",
+      "Rating": "4.8",
+      "TotalConsumers": "390",
+      "ProductTitle": "sizzling fajita platter",
+      "ProductMeta1": "chicken or beef",
+      "ProductMeta2": "with veggies",
+      "cardAddBtn": "add to cart",
+      "quantity": 1
+    }
+  ],
+  "menuTabs": [
+    {
+      "id": "beef",
+      "label": "beef"
+    },
+    {
+      "id": "grilled",
+      "label": "grilled"
+    },
+    {
+      "id": "sizzling",
+      "label": "sizzling"
+    },
+    {
+      "id": "steak",
+      "label": "steak bliss"
+    }
+  ],
+  "users": [
+    {
+      "id": "ae81",
+      "fname": "Yuvraj",
+      "lname": "Ganshi",
+      "email": "yuvraj0651@gmail.com",
+      "pass": "123456",
+      "Cpass": "123456"
+    },
+    {
+      "id": "7299",
+      "fname": "Rohit",
+      "lname": "Bahl",
+      "email": "rohitbahl@gmail.com",
+      "pass": "12345678",
+      "Cpass": "12345678"
+    },
+    {
+      "id": "cafc",
+      "fname": "Nisha",
+      "lname": "Kumari",
+      "email": "nishak@gmail.com",
+      "pass": "1234567",
+      "Cpass": "1234567"
+    },
+    {
+      "id": "8bad",
+      "fname": "yuvraj",
+      "lname": "singh",
+      "email": "yuvrajsingh@gmail.com",
+      "pass": "password@1234",
+      "Cpass": "password@1234"
+    },
+    {
+      "id": "d421",
+      "fname": "Balraj",
+      "lname": "Singh",
+      "email": "balrajsingh@gmail.com",
+      "pass": "balraj123456",
+      "Cpass": "balraj123456"
+    },
+    {
+      "id": "16d5",
+      "fname": "Pankaj",
+      "lname": "Kumar",
+      "email": "pankajkumar@gmail.com",
+      "pass": "pankaj12345",
+      "Cpass": "pankaj12345"
+    },
+    {
+      "id": "fecf",
+      "fname": "Nidhi",
+      "lname": "Kumari",
+      "email": "nidhikumari@gmail.com",
+      "pass": "nidhi1234",
+      "Cpass": "nidhi1234"
+    },
+    {
+      "id": "d834",
+      "fname": "Amanpreet",
+      "lname": "kumari",
+      "email": "amankaur@gmail.com",
+      "pass": "aman1234",
+      "Cpass": "aman1234"
+    },
+    {
+      "id": "b9b4",
+      "fname": "Sneha",
+      "lname": "Singh",
+      "email": "snehasingh@gmail.com",
+      "pass": "sneha@123",
+      "Cpass": "sneha@123"
+    }
+  ]
+}
