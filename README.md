@@ -1,4 +1,5 @@
 # 🍔 Foodix - Food Ordering Website 
+![Foodix}(https://github.com/user-attachments/assets/6fe27643-85d9-4264-b921-fdf91dc3378a)
 
 ## 📌 Overview
 A modern food ordering website with interactive UI, allowing users to browse food items, view details, and simulate ordering experience.
